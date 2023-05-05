@@ -1,8 +1,14 @@
 # インテリジェンスアーティフィシエル
-このプログラムでは、光速を計算するために`c = distance / time`の式を使用します。
-目的地までの距離は、光年で与えられているため、7 * 9.46e12の計算を行ってメートルに変換されます。
-定数cは光速を表しており、計算された光速はメートル/秒で出力されます。
+このコードは、質量に基づいてブラックホールのイベントホライゾンを計算するためにSchwarzschildの式、`r_s = 2GM/c^2`、を使用します。
+重力定数`G`、光速`c`、およびブラックホールの質量`M`はコンストラクタで初期化されます。
+イベントホライゾンは計算され、メートル単位でユーザーに表示されます。イベントホライゾンがゼロより大きい場合、光はブラックホールから脱出できないことを意味します。
+イベントホライゾンがゼロより小さい場合、光はブラックホールから脱出できることを意味します。
+なお、この計算はブラックホールの正確な質量を提供するものではありませんが、単にその質量に基づいたイベントホライゾンに関する情報を提供します。
 
-In this program, the formula `c = distance / time` is used to calculate the speed of light. 
-The distance to the destination is given in light years, so the calculation is performed to convert it to meters (7 * 9.46e12). 
-The constant `c` represents the speed of light, and the calculated speed is output in meters per second.
+
+This code uses the Schwarzschild formula, `r_s = 2GM/c^2`, to calculate the event horizon of a black hole based on its mass. 
+The gravitational constant `G`, speed of light `c`, and mass of the black hole `M` are initialized in the constructor. 
+The event horizon is calculated and displayed to the user in meters. 
+If the event horizon is greater than zero, it means that light cannot escape from the black hole. 
+If the event horizon is less than zero, it means that light can escape from the black hole. 
+Note that this calculation does not provide the exact mass of the black hole, but simply information about the event horizon based on its mass.
