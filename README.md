@@ -1,2 +1,2 @@
 # ESS
-知能宇宙システム実験 Intelligent Space Systems Laboratory work
+地球と宇宙科学 Earth and Space Science
