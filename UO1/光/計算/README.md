@@ -1,8 +1,9 @@
 # インテリジェンスアーティフィシエル
-このプログラムでは、光速を計算するために`c = distance / time`の式を使用します。
-目的地までの距離は、光年で与えられているため、7 * 9.46e12の計算を行ってメートルに変換されます。
-定数cは光速を表しており、計算された光速はメートル/秒で出力されます。
+このコードでは、距離（この場合は7光年）に対する光速を計算するために、`c = distance / time`の式が使用されます。
+距離は、光年の値からメートルに変換されます。
+定数cは、メートル/秒単位での光速を表しています。光速は、計算されて、ユーザーにメートル/秒で表示されます。
 
-In this program, the formula `c = distance / time` is used to calculate the speed of light. 
-The distance to the destination is given in light years, so the calculation is performed to convert it to meters (7 * 9.46e12). 
-The constant `c` represents the speed of light, and the calculated speed is output in meters per second.
+This code uses the formula for the speed of light, `c = distance / time`, to calculate the speed of light in space for a given distance (7 light-years in this case). 
+The distance is converted to meters from the value in light-years. 
+The constant `c`is the speed of light in meters per second. 
+The speed of light is calculated and displayed to the user in meters per second.
